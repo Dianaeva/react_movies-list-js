@@ -1,3 +1,4 @@
+import ImdbLogo from '../../images/imdb-logo.jpeg';
 import './MovieCard.scss';
 
 export const MovieCard = ({ movie }) => (
@@ -16,7 +17,7 @@ export const MovieCard = ({ movie }) => (
       <div className="media">
         <div className="media-left">
           <figure className="image is-48x48">
-            <img src="images/imdb-logo.jpeg" alt="imdb" />
+            <img src={ImdbLogo} alt="imdb" />
           </figure>
         </div>
 
